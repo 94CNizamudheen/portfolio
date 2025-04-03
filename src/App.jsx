@@ -3,6 +3,8 @@ import NavbarMain from './Components/Navbar/NavbarMain'
 import HeroMain from './Components/HeroSection/HeroMain'
 import HeroGradient from './Components/HeroSection/HeroGradient'
 import SubHeroSection from './Components/HeroSection/SubHeroSection'
+import AboutMeMain from './Components/AboutMeSection/AboutMeMain'
+import HelperSection from './Components/HelperSection'
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
     <HeroMain/>
     <HeroGradient/>
     <SubHeroSection/>
+    <AboutMeMain/>
+    <HelperSection/>
    </main>
   )
 }
