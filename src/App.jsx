@@ -9,6 +9,7 @@ import SkillMain from './Components/SkillSection/SkillMain'
 import Subskills from './Components/SkillSection/Subskills'
 import ExperienceMain from './Components/ExperienceSection/ExperienceMain'
 import ProjectMain from './Components/ProjectSection/ProjectMain'
+import ContactMain from './Components/ContactMeSection/ContactMain'
 
 const App = () => {
   return (
@@ -22,7 +23,9 @@ const App = () => {
     <Subskills/>
     <ExperienceMain/>
     <ProjectMain/>
+    <ContactMain/>
     <HelperSection/>
+    
    </main>
   )
 }
