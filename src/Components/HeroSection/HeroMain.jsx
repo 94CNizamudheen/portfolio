@@ -1,6 +1,9 @@
 import React from 'react'
 import HeroText from './HeroText'
 import HeroPic from './HeroPic'
+import { motion } from "framer-motion"
+import { fadeIn } from '../../FramerMotion/varients'
+//variants={fadeIn("down", 0.2)} initial='hidden' whileInView='show' viewport={{ once: false, amount: 0 }}
 
 const HeroMain = () => {
     return (
