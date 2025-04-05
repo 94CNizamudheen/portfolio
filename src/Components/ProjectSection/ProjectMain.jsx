@@ -4,10 +4,10 @@ import Singleproject from './Singleproject'
 
 
 const projects=[
-    {name:'E-commerce' ,year:'2024',align:'right',image:'../../../public/images/website-img-1.jpg',link:'#'},
-    {name:'E-commerce' ,year:'2024',align:'left',image:'../../../public/images/website-img-1.jpg',link:'#'},
-    {name:'E-commerce' ,year:'2024',align:'right',image:'../../../public/images/website-img-1.jpg',link:'#'},
-    {name:'E-commerce' ,year:'2024',align:'left',image:'../../../public/images/website-img-1.jpg',link:'#'},
+    {name:'E-commerce' ,year:'2024',align:'right',image:'/images/website-img-1.jpg',link:'#'},
+    {name:'E-commerce' ,year:'2024',align:'left',image:'/images/website-img-1.jpg',link:'#'},
+    {name:'E-commerce' ,year:'2024',align:'right',image:'/images/website-img-1.jpg',link:'#'},
+    {name:'E-commerce' ,year:'2024',align:'left',image:'/images/website-img-1.jpg',link:'#'},
 ]
 const ProjectMain = () => {
   return (
