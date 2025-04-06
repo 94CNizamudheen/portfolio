@@ -22,7 +22,7 @@ const skills=[
     {skill:"NodeJs",icon:FaNode},
     {skill:"React",icon:FaReact},
     {skill:"TypeScript",icon:SiTypescript},
-    {skill:"TypeScript",icon:RiTailwindCssFill},
+    {skill:"Tailwind",icon:RiTailwindCssFill},
     
 
 ];

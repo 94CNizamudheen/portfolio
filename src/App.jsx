@@ -13,7 +13,7 @@ import FooterMAin from './Components/Footer/FooterMAin'
 
 const App = () => {
   return (
-   <main className='font-body'>
+   <main className='font-body overflow-x-hidden'>
     <NavbarMain/>
     <HeroMain/>
     <HeroGradient/>
