@@ -23,7 +23,7 @@ const projects = [
   },
   {
     name: 'NetFlix-clone',
-    skill: 'React,FireBase,',
+    skill: 'React, FireBase,',
     align: 'right',
     video: 'https://res.cloudinary.com/dfcujxopi/video/upload/v1743927304/For%20portfolio/hnquwv4hrzcgs88bqhrz.mp4',
     link: 'https://github.com/94CNizamudheen/Netflix_clone_React.git'
@@ -47,9 +47,9 @@ const ProjectMain = () => {
       <div className='flex flex-col gap-20 max-w-[900px] mx-auto mt-12'>
         {projects.map((project,index)=>{
             return(
-              <motion.div variants={fadeIn("left", 0.2)} initial='hidden' whileInView='show' viewport={{ once: false, amount: 0 }}
+              <motion.div key={index}  variants={fadeIn("left", 0.2)} initial='hidden' whileInView='show' viewport={{ once: false, amount: 0 }}
               >
-                <Singleproject key={index} name={project.name} skill={project.skill} align={project.align} video={project.video} link={project.link}/>
+                <Singleproject  name={project.name} skill={project.skill} align={project.align} video={project.video} link={project.link}/>
               </motion.div>
             ) 
         })}

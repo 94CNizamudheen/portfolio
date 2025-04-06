@@ -4,7 +4,7 @@ import { fadeIn } from '../../FramerMotion/varients'
 
 const HeroText = () => {
   return (
-    <div className='flex flex-col gap-4 h-full justify-center md:text-left sm:text-center'>
+    <div className='flex flex-col gap-4 h-full justify-center md:text-left sm:text-center text-center px-4'>
       <motion.h2 
         variants={fadeIn("down", 0.2)} 
         initial='hidden' 
@@ -27,7 +27,7 @@ const HeroText = () => {
         initial='hidden' 
         whileInView='show' 
         viewport={{ once: false, amount: 0 }}
-        className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-orange font-bold uppercase"
+        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-orange font-bold uppercase"
       >
         Nizamudheen <br className="sm:hidden md:block" /> Cholakkal
       </motion.h1>
