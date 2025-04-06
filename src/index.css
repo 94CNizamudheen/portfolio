@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:wght@800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Josefin Sans", "sans-serif";
+  --font-display-secondary: "Roboto", "sans-serif";
+  --color-brown: #53423e;
+  --color-light-brown: #645550;
+  --color-dark-brown: #2c2523;
+  --color-black: #1e1917;
+  --color-white: #f1e1d9;
+  --color-cyan: #15d1e9;
+  --color-light-cyan: #88e5f0;
+  --color-dark-cyan: #009fb3;
+  --color-orange: #fb9718;
+  --color-light-orange: #fac27b;
+  --color-dark-orange: #d28422;
+  --color-grey: #626965;
+  --color-light-grey: #978580;
+  --color-dark-grey: #3f4441;
+
+
+
+}
+:root {
+  --shadow-cyanShadow: 0px 0px 20px 0px rgba(94, 206, 220, 0.5);
+  --shadow-cyanBigShadow: 10px 10px 1000px 500px rgba(94, 206, 220, 0.3);
+  --shadow-cyanMediumShadow: 10px 10px 200px 150px rgba(94, 206, 220, 0.5);
+  --shadow-orangeBigShadow: 10px 10px 10000px 500px rgba(240, 169, 79, 0.3);
+  --shadow-orangeMediumShadow: 10px 10px 2000px 150px rgba(240, 169, 79, 0.5);
+}
+
+@layer components{
+  .cyanShadow{
+    box-shadow: var(--shadow-cyanShadow);
+  }
+}
+
+body {
+  background-color: var(--color-dark-brown);
+  font-family: var(--font-display);
+  color: var(--color-white);
+}
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
