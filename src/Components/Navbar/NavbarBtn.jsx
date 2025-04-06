@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { LuArrowDownRight } from "react-icons/lu";
-import WhatsAppModal from './whatsAppModal';
+import WhatsAppModal from './WhatsAppModal';
 const NavbarBtn = () => {
   const [isModalOpen, setisModalOpen] = useState(false);
 
