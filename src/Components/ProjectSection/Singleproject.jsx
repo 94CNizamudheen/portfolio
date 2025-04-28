@@ -6,7 +6,7 @@ const Singleproject = ({ video, name, skill, align, link }) => {
     <div className={`flex w-full sm:flex-col-reverse items-center gap-8 ${align === 'left' ? 'md:flex-row' : 'md:flex-row-reverse'} justify-end`}>
       <div>
         <h3 className='md:text-3xl sm:text-2xl text-orange'>{name}</h3>
-        <p className={`text-xl font-thin text-white font-special sm:text-center ${align === 'left' ? 'md:text-right' : 'md:text-left'}`}>
+        <p className={`text-xl font-thin text-white font-special sm:text-center ${align === 'left' ? 'md:text-right' : 'md:text-left'} sm:text-balance`}>
           {skill}
         </p>
 

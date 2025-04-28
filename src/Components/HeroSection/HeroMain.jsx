@@ -10,10 +10,12 @@ const HeroMain = () => {
                 <HeroText />
                 <HeroPic />
             </div>
-            <div className=" absolute -z-10 flex justify-center items-center animate-bounce  ">
-                <IoLogoReact className=" md:h-[90%] sm:h-[120%] min-h-[450px] w-auto text-cyan blur-xl animate-[spin_20s_linear_infinite] " />
-            </div>
-          
+ 
+            {/* <div className="relative flex justify-center items-center sm:h-[300px] md:h-[400px]">
+                <IoLogoReact className="md:h-[60%] sm:h-[80%] w-auto text-cyan blur-md animate-[spin_10s_linear_infinite]" />
+            </div> */}
+
+
 
         </div>
     )
